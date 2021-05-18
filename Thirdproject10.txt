@@ -1,0 +1,24 @@
+      int number = 1,number2 = 1; 
+        boolean valid = true; 
+        Scanner scanner = new Scanner(System.in);         
+        System.out.println("type some number");
+        number = scanner.nextInt();
+        System.out.println("type another number");
+        number2 = scanner.nextInt();
+          
+        if(number > number2){
+            while(number >= number2){                
+               System.out.println(number);
+               number--;
+            }                         
+        }
+        else if(number2 > number){
+            while(number2 >= number){            
+            System.out.println(number2);
+            number2--;
+            }            
+        }        
+                                                                           
+    }
+    
+}
